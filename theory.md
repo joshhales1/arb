@@ -9,7 +9,7 @@ Consider the market "Team A Scores" with outcomes "Yes" and "No" priced at 20% a
 Consider the event which contains the potentially infinite set of all outcomes $O$. 
 > In football, an event is a match and the set of outcomes is the set of all possible scores $\{(0,0), (0,1),...,(n,n)\}$.
 
-A contract $c$ is a subset of outcomes $c_o \subseteq O $ with an associated cost value $c_c \subset \mathbb R^+$ which represents the price of the contract.
+A contract $c$ is a subset of outcomes $c_o \subseteq O$ with an associated cost value $c_c \subset \mathbb R^+$ which represents the price of the contract.
 > In football, a contract could be "Team A Wins". The set of associated contracts $$c_o$ is all outcomes where Team A scores higher than Team B. For example $\{(1,0), (2,0),..., (m,n)\}, m > n$ The cost could be 10%.
 
 The optimal opportunity in an event is the set of contracts $c_{1_o}, c_{2_o},...,c_{3_o}$ such that
